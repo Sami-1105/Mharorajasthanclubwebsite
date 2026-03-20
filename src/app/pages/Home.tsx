@@ -97,10 +97,13 @@ export function Home() {
                 About Our Club
               </h2>
               <p className="text-lg text-gray-700 mb-4">
-                Mharo Rajasthan Club is VIT Bhopal University's premier cultural club dedicated to preserving and
-                promoting the rich cultural heritage of Rajasthan. We bring
-                together students who share a love for Rajasthani traditions,
-                art, music, dance, and cuisine.
+                The Maharo Rajasthan Club at our college is a student-led organization dedicated to promoting and celebrating the culture and traditions of Rajasthan.
+                 We provide a platform for students interested in Rajasthani culture to come together, share knowledge and skills, and organize various events and activities.
+                  From Ghoomar and Rajasthan Day celebrations to Jaipur Literature Festival and traditional sports competitions, our club offers a diverse range of experiences. 
+                  Through these initiatives, we aim to preserve and showcase Rajasthan’s rich heritage while fostering a sense of community and cultural awareness among the students. 
+                  Additionally, we collaborate with other cultural clubs to promote diversity and harmony on campus. 
+                  Members also have the opportunity to participate in intercollegiate cultural competitions and represent our college and state in various events.
+                   Let’s come together and celebrate the spirit of Rajasthan at the Maharo Rajasthan Club!
               </p>
               <p className="text-lg text-gray-700 mb-6">
                 Our club serves as a platform for students to connect with their roots while creating
@@ -197,7 +200,7 @@ export function Home() {
                   Padharo Sa
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  Our inaugural flagship event that introduced VIT Bhopal to the grandeur of Rajasthani culture. Featured traditional dance performances, folk music, and authentic Rajasthani cuisine.
+                  Our flagship event that introduced VIT Bhopal to the grandeur of Rajasthani culture. Featured traditional dance performances, folk music, and authentic Rajasthani cuisine.
                 </p>
                 <div className="flex items-center gap-4 text-sm text-gray-600">
                   <span className="flex items-center gap-1">
@@ -260,7 +263,7 @@ export function Home() {
               </div>
               <div className="p-6">
                 <h3 className="text-2xl font-bold mb-3 text-yellow-900">
-                  Thar - The Desert Fest
+                  Thar 
                 </h3>
                 <p className="text-gray-700 mb-4">
                   A unique desert-themed cultural night featuring traditional Rajasthani folk tales, puppet shows (Kathputli), and an authentic desert setup with folk musicians and bonfire.
@@ -295,7 +298,7 @@ export function Home() {
                   Rangilo Rajasthan
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  Our annual mega cultural fest celebrating Rajasthan in all its glory! Two days of non-stop performances, competitions, food stalls, handicraft exhibitions, and cultural workshops.
+                  Our  mega cultural fest celebrating Rajasthan in all its glory!Day of non-stop performances, competitions, food stalls, handicraft exhibitions, and cultural workshops.
                 </p>
                 <div className="flex items-center gap-4 text-sm text-gray-600">
                   <span className="flex items-center gap-1">
