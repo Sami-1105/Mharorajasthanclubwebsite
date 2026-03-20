@@ -3,14 +3,14 @@ import { Mail, Phone, Linkedin } from "lucide-react";
 export function Team() {
   const executiveTeam = [
     {
-      name: "Arjun Singh Rathore",
+      name: "Manish Choudhary",
       position: "President",
       bio: "Final Year CSE student passionate about Rajasthani culture",
       email: "president.mharo@vitbhopal.ac.in",
       phone: "+91 98765 43210",
     },
     {
-      name: "Ananya Kumari",
+      name: "Yuvraj Rajpurohit",
       position: "Vice President",
       bio: "Expert in traditional dance and cultural event management",
       email: "vp.mharo@vitbhopal.ac.in",
@@ -34,32 +34,38 @@ export function Team() {
 
   const departmentHeads = [
     {
-      department: "Events & Programs",
+      department: "Event Management Team",
       head: "Rohan Meena",
       members: ["Amit Sharma", "Kavita Singh", "Neha Purohit"],
     },
     {
-      department: "Cultural Activities",
+      department: "Cultural Team",
       head: "Geeta Choudhary",
       members: ["Rahul Joshi", "Priya Chauhan", "Deepak Kumawat"],
     },
+    
     {
-      department: "Design & Media",
-      head: "Karan Jangid",
-      members: ["Sanjay Kumar", "Meera Solanki", "Varun Bishnoi"],
-    },
-    {
-      department: "Public Relations",
+      department: "PR & Outreach Team",
       head: "Sunita Bhati",
       members: ["Ravi Rathore", "Pooja Panwar", "Ajay Gehlot"],
     },
     {
       department: "Technical Team",
-      head: "Aditya Shekhawat",
-      members: ["Shruti Verma", "Harsh Sharma", "Anjali Singh"],
+      head: "Nabh Garg",
+      members: ["Samridhi Tyagi", "Shatabdi Singh", "Yash Singhal"],
     },
     {
-      department: "Sponsorship & Finance",
+      department: "Content Team",
+      head: "Ishaan Joshi",
+      members: ["Rekha Kumawat", "Suresh Rajput", "Lalita Chauhan"],
+    },
+    {
+      department: "Marketing Team",
+      head: "Ishaan Joshi",
+      members: ["Rekha Kumawat", "Suresh Rajput", "Lalita Chauhan"],
+    },
+    {
+      department: "Design Team",
       head: "Ishaan Joshi",
       members: ["Rekha Kumawat", "Suresh Rajput", "Lalita Chauhan"],
     },
@@ -67,25 +73,11 @@ export function Team() {
 
   const advisoryBoard = [
     {
-      name: "Dr. Rajesh Sharma",
-      designation: "Faculty Advisor",
+      name: "Mr.C.S.Rajpoot",
+      designation: "Faculty coordinator",
       expertise: "Student Activities & Cultural Programs",
     },
-    {
-      name: "Prof. Meera Patel",
-      designation: "Faculty Co-Advisor",
-      expertise: "Event Management & Student Development",
-    },
-    {
-      name: "Mr. Kailash Rathore",
-      designation: "Cultural Consultant",
-      expertise: "Rajasthani Folk Arts & Traditions",
-    },
-    {
-      name: "Ms. Padmini Kumari",
-      designation: "Dance Instructor",
-      expertise: "Ghoomar & Traditional Dance Forms",
-    },
+   
   ];
 
   return (
@@ -224,18 +216,10 @@ export function Team() {
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
             <a
-              href="mailto:mharo.rajasthan@vitbhopal.ac.in"
-              className="bg-white text-orange-600 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors inline-flex items-center gap-2"
+             
             >
-              <Mail size={20} />
-              Contact Us
-            </a>
-            <a
-              href="tel:+919876543210"
-              className="bg-orange-700 hover:bg-orange-800 text-white px-8 py-3 rounded-lg font-bold transition-colors inline-flex items-center gap-2"
-            >
-              <Phone size={20} />
-              Call Now
+              
+              
             </a>
           </div>
         </div>
